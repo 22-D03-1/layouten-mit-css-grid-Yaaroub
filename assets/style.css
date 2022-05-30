@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Maven Pro', sans-serif;}
+.hgrid{
+    
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 230px);
+    margin: 3px;
+    gap: 5px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+p{
+    font-weight: 500;
+}
+img{
+    height:100% ;
+    width: 100%;
+}
+.p1{
+    height: 100%;
+    width: 100%;
+}
+.p2{
+    height: 100%;
+    width: 100%;
+}
+.p3{
+    height: 100%;
+    width: 100%;
+    grid-column-start: 7;
+    grid-row-start: 4;
+}
+.p4{
+    height: 100%;
+    width: 100%;
+    grid-column-start: 6;
+    grid-row-start: 3;
+}
+.p5{
+    height: 100%;
+    width: 100%;
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+.p6{
+    height: 100%;
+    width: 100%;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.p7{
+    height: 100%;
+    width: 100%;
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+.p8{
+    height: 100%;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.p9{
+    height: 100%;
+    width: 100%;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+h3{
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    font-size: 130px;
+    color: red;
+    letter-spacing: 20px;
+    font-weight: 100;
+}
